@@ -46,9 +46,9 @@
     overflow: hidden;
     width: 10em;
     height: 10em;
-    background-color: $gatsby-purple;
+    // background-color: $gatsby-purple;
     border-radius: 100%;
-    border: solid 6px $gatsby-purple;
+    // border: solid 6px $gatsby-purple;
     margin: 0;
 
     img {
@@ -75,6 +75,12 @@
 
   pre {
     margin-bottom: 1.5em;
+  }
+
+	ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.2em 0;
   }
 
 }
